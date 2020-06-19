@@ -46,15 +46,12 @@ exports.php = php;
 exports.pot = pot;
 exports.zipFiles = zipFiles;
 
-if ( process.env.NODE_ENV === 'dev' ) {
-	exports.package = series(
-		clean,
-		parallel(
-			css,
-			js,
-			series( pot, languages ),
-			php,
-		),
-		zipFiles,
-	);
-}
+exports.package = series(
+	clean,
+	parallel(
+		series( pot, languages ),
+		php,
+	),
+	zipFiles,
+);
+

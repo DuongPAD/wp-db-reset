@@ -1,0 +1,25 @@
+{
+  "name": "wp-db-reset",
+  "version": "1.0.0",
+  "description": "WordPress Database Reset",
+  "scripts": {
+    "dev": "NODE_ENV=dev gulp package",
+    "prod": "NODE_ENV=prod gulp package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnthemes/wp-db-reset.git"
+  },
+  "author": "SaturnThemes",
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/saturnthemes/wp-db-reset/issues"
+  },
+  "devDependencies": {
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-wp-pot": "^2.3.5",
+    "gulp-zip": "^4.2.0"
+  }
+}

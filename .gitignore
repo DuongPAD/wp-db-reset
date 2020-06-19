@@ -6,3 +6,5 @@ src/*/assets/maps/
 package-lock.json
 /dist/
 *.code-workspace
+/build/
+/languages/
