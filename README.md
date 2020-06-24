@@ -2,7 +2,7 @@
 Resets the WordPress database back to it's defaults.
 
 ## Installation
-1. Upload the `wo-db-reset` folder to the `/wp-content/plugins/` directory or install directly through the plugin installer.
+1. Upload the `wp-db-reset` folder to the `/wp-content/plugins/` directory or install directly through the plugin installer.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 ## Usage
